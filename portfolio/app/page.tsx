@@ -107,7 +107,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.8 }}
               >
-                Java Full Stack Developer
+                Python Full Stack Developer
               </motion.p>
               <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
                 <motion.a
@@ -190,7 +190,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 style={{ transformStyle: "preserve-3d" }}
               >
-                A highly skilled and motivated recent Computer Science graduate, passionate about developing innovative projects and leveraging technology to solve complex problems. I possess a strong foundation in Java and related technologies including Spring Boot, Hibernate, and JSP/Servlets, complemented by hands-on experience in full-stack development. My projects demonstrate my ability to apply technical knowledge to real-world challenges. I am a collaborative team player, eager to contribute to cutting-edge projects and continuously expand my skillset in Java development. I am actively seeking opportunities where I can apply my expertise and grow as a Java Full Stack Developer.
+                A highly skilled and motivated recent Computer Science graduate, passionate about developing innovative projects and leveraging technology to solve complex problems. I possess a strong foundation in Python and related technologies including Django, Flask, Machine Learning, and Data Analysis, complemented by hands-on experience in full-stack development. My projects demonstrate my ability to apply technical knowledge to real-world challenges, particularly in AI/ML applications and data-driven solutions. I am a collaborative team player, eager to contribute to cutting-edge projects and continuously expand my skillset in Python development. I am actively seeking opportunities where I can apply my expertise and grow as a Python Full Stack Developer.
               </motion.p>
             </motion.div>
           </div>
@@ -405,7 +405,7 @@ export default function Home() {
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-16 text-center gradient-text">Skills & Technologies</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
-                {['Java', 'Python', 'C', 'HTML5', 'CSS3', 'JavaScript', 'Django', 'Hibernate', 'Jsp', 'Servlet', 'Spring', 'SpringBoot', 'VSCode', 'Git', 'GitHub', 'cursorAI', 'Jupyter Notebook', 'MySQL', 'Machine Learning'].map((skill, index) => (
+                {['Python', 'Machine Learning', 'Data Analysis', 'Django', 'Flask', 'TensorFlow', 'OpenCV', 'Pandas', 'NumPy', 'HTML5', 'CSS3', 'JavaScript', 'MySQL', 'VSCode', 'Git', 'GitHub', 'Jupyter Notebook', 'Streamlit', 'React', 'Next.js'].map((skill, index) => (
                   <motion.div
                     key={skill}
                     initial={{ opacity: 0, y: 20, rotateY: -30, rotateX: -10 }}
